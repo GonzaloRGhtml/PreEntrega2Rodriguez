@@ -2,3 +2,7 @@ body {
     background-color: pink !important;
     color:red !important;
 }
+
+input {
+    width: 250px; height: 40px;
+}
