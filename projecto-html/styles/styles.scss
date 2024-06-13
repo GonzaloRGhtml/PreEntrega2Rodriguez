@@ -1,0 +1,31 @@
+body {
+    background-color: pink !important;
+    color: red !important;
+}
+
+.contenedor-input {
+    input {
+        width: 250px;
+        height: 40px;
+    }
+
+    textarea {
+        width: 250px;
+    }
+}
+
+@for $i from 1 through 10 {
+    .texto-#{$i} {
+        font-size: calc(18px + 2px * #{$i});
+    }
+    .imagen-#{$i} {
+        width: calc(15px * #{$i}) !important;
+        height: calc(15px * #{$i}) !important;
+    }
+}
+
+$color-raro: #FF3304;
+
+.texto-color {
+    color: $color-raro;
+}
