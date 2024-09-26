@@ -18,6 +18,7 @@ body {
     .texto-#{$i} {
         font-size: calc(18px + 2px * #{$i});
     }
+
     .imagen-#{$i} {
         width: calc(15px * #{$i}) !important;
         height: calc(15px * #{$i}) !important;
@@ -28,4 +29,15 @@ $color-raro: #FF3304;
 
 .texto-color {
     color: $color-raro;
+}
+
+.boton-navegador {
+    color: #d62fec;
+    background: #FFF;
+    padding: 3px;
+    text-decoration: none;
+
+    &:visited {
+        color: #000;
+    }
 }

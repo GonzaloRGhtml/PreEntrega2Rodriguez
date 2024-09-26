@@ -105,4 +105,14 @@ body {
   color: #FF3304;
 }
 
+.boton-navegador {
+  color: #d62fec;
+  background: #FFF;
+  padding: 3px;
+  text-decoration: none;
+}
+.boton-navegador:visited {
+  color: #000;
+}
+
 /*# sourceMappingURL=styles.css.map */
