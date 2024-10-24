@@ -115,4 +115,10 @@ body {
   color: #000;
 }
 
+body {
+  background-image: url("../img/fondodeflores.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
