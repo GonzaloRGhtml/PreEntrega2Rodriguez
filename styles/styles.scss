@@ -1,6 +1,6 @@
 body {
     background-color: pink !important;
-    color: red !important;
+    color: #537fff   !important;
 }
 
 .contenedor-input {
@@ -25,7 +25,7 @@ body {
     }
 }
 
-$color-raro: #FF3304;
+$color-raro: #9fff1d;
 
 .texto-color {
     color: $color-raro;
@@ -33,7 +33,7 @@ $color-raro: #FF3304;
 
 .boton-navegador {
     color: #d62fec;
-    background: #FFF;
+    background: #fecdd8;
     padding: 3px;
     text-decoration: none;
 
@@ -44,4 +44,28 @@ $color-raro: #FF3304;
 body  { background-image:  url("../img/fondodeflores.jpg");
 background-size: cover; 
 background-position: center; 
+}
+@font-face{
+font-family:'kavivana' ;
+src:url(../pages/fuantes/Kavivanar.zip) ;
+font-weight: bold;
+font-style: bold;
+}
+title{ font-family:'kavivana' ;
+    font-weight: bold;
+}
+h1{ font-family:'kavivana' ;
+    font-weight: bold;
+}
+h3{ font-family:'kavivana' ;
+    font-weight: bold;
+}
+h2{ font-family:'kavivana' ;
+    font-weight: bold;
+}
+h4{ font-family:'kavivana' ;
+    font-weight: bold;
+}
+p{ font-family:'kavivana' ;
+    font-weight: bold;
 }
